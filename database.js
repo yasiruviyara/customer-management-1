@@ -37,7 +37,7 @@ let db = new sqlite3.Database(DB, (err) => {
                     expiryDate,
                     cvv
                 ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`, [
-                    "Dharmasiri",
+                    "Yasiru Viyara",
                     "No1, Matara, Colombo", 
                     "dharmasiri@gmail.com", 
                     "2005-05-01", 
