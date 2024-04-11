@@ -11,12 +11,12 @@ let db = new sqlite3.Database(DB, (err) => {
             customerId INTEGER PRIMARY KEY AUTOINCREMENT,
             name TEXT,
             address TEXT,
-            email TEXT,
+            email EMAIL,
             dateOfBirth DATE,
             gender TEXT,
             age INTEGER,
             cardHolderName TEXT,
-            cardName INTEGER,
+            cardNo INTEGER,
             expiryDate TEXT,
             cvv INTEGER,
             timeStamps TIMESTAMP DEFAULT CURRENT_TIMESTAMP
@@ -33,7 +33,7 @@ let db = new sqlite3.Database(DB, (err) => {
                     gender,
                     age,
                     cardHolderName,
-                    cardName,
+                    cardNo,
                     expiryDate,
                     cvv
                 ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`, [
