@@ -33,13 +33,22 @@ Account Number(12 digit)<br/>
     "email": "dharmasiri@gmail.com",
     "dateOfBirth": "2005.05.01", 
     "gender": "male", 
-    "age":  19, 
+    "age":  19,
     "cardHolderName": "Dharmasiri",
     "cardName": 123456789123, 
     "expiryDate":  "12/24",
     "cvv":  123              
                     
 }
+
+##Img 
+
+![postman_1](https://github.com/yasiruviyara/customer-management-1/assets/80908044/62249f72-2c17-47c7-ad25-62a75b709b69)
+
+![sever_js_1](https://github.com/yasiruviyara/customer-management-1/assets/80908044/3341b866-c5a7-4238-8830-f4981dd336b5)
+
+![database_js_1](https://github.com/yasiruviyara/customer-management-1/assets/80908044/d8bd642d-146f-4f55-86b2-97f1ee535e90)
+
 
 
 
